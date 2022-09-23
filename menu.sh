@@ -145,7 +145,7 @@ echo -e "Current Time        = $( date -d "0 days" +"%d-%m-%Y | %X" )"
 echo -e "Operating System    = $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )"
 echo -e "Current Domain      = $( cat /etc/xray/domain )"
 echo -e "Server IP           = ${IP}"
-echo -e "Clients Name       = $Name"
+echo -e "Clients Name        = $Name"
 echo -e "Exfire Script VPS   = $Exp"
 echo -e "License Start       = ON TIME"
 echo -e "License Limit       = UNLI VPS"
@@ -174,7 +174,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 
 echo -e ""
 
-read -p "Select From Options [ 1 - 13 ] : " menu
+read -p "Select From Options [ 1 - 14 ] : " menu
 case $menu in
 1)
 clear
