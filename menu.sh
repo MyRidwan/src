@@ -54,6 +54,13 @@ PERMISSION () {
     BURIQ
 }
 
+PERMISSION
+
+if [ "$res" = "Expired" ]; then
+Exp="\e[36mExpired\033[0m"
+else
+Exp=$(curl -sS https://raw.githubusercontent.com/MyRidwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $3}')
+fi
 
 # // Exporting Language to UTF-8
 export LC_ALL='en_US.UTF-8'
@@ -138,8 +145,8 @@ echo -e "Current Time        = $( date -d "0 days" +"%d-%m-%Y | %X" )"
 echo -e "Operating System    = $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )"
 echo -e "Current Domain      = $( cat /etc/xray/domain )"
 echo -e "Server IP           = ${IP}"
-echo -e "Clients Name        = $Name"
-echo -e "Exfire Script VPS   = $Exf"
+echo -e "Clients Name       = $Name"
+echo -e "Exfire Script VPS   = $Exp"
 echo -e "License Start       = ON TIME"
 echo -e "License Limit       = UNLI VPS"
 
