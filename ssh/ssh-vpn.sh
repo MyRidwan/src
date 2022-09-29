@@ -300,6 +300,8 @@ wget -O about "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/about.sh"
 wget -O running "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/running.sh"
 wget -O banner "https://raw.githubusercontent.com/myridwan/src/ipuk/banner.sh"
 wget -O del-tr "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/del-tr.sh"
+wget -O trial-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/trial-menu.sh"
+wget -O info-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/info-menu.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
@@ -321,6 +323,8 @@ chmod +x about
 chmod +x running
 chmod +x banner
 chmod +x del-tr
+chmod +x trial-menu
+chmod +x info-menu
 cd
 
 
