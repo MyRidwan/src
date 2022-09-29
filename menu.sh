@@ -165,7 +165,7 @@ echo -e " [${GREEN}02${NC}]${RED} •${NC} Vmess Manager    $NC  [${GREEN}09${NC
 echo -e " [${GREEN}03${NC}]${RED} •${NC} Trojan Manager   $NC  [${GREEN}10${NC}]${RED} • ${NC}Ssws Manager $NC"
 echo -e " [${GREEN}04${NC}]${RED} •${NC} Shdw Manager   $NC    [${GREEN}11${NC}]${RED} • ${NC}Change Banner $NC"
 echo -e " [${GREEN}05${NC}]${RED} •${NC} Add Domain    $NC     [${GREEN}12${NC}]${RED} • ${NC}Cek Bandwith User Xray $NC"
-echo -e " [${GREEN}06${NC}]${RED} •${NC} Running Service $NC   [${GREEN}13${NC}]${RED} • ${NC}BACKUP $NC"
+echo -e " [${GREEN}06${NC}]${RED} •${NC} Running Service $NC   [${GREEN}13${NC}]${RED} • ${NC}Trial Manager $NC"
 echo -e " [${GREEN}07${NC}]${RED} •${NC} Certificate SSL $NC   [${GREEN}14${NC}]${RED} • ${NC}RESTORE DATA $NC"
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -222,11 +222,11 @@ banner
 ;;
 12)
 clear
-running
+info-menu
 ;;
 13)
 clear
-setmenu
+trial-menu
 ;;
 14)
 reboot
