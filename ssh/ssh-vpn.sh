@@ -302,6 +302,7 @@ wget -O banner "https://raw.githubusercontent.com/myridwan/src/ipuk/banner.sh"
 wget -O del-tr "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/del-tr.sh"
 wget -O trial-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/trial-menu.sh"
 wget -O info-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/info-menu.sh"
+wget -O ceklim "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/ceklim.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
@@ -325,6 +326,7 @@ chmod +x banner
 chmod +x del-tr
 chmod +x trial-menu
 chmod +x info-menu
+chmod +x ceklim
 cd
 
 
