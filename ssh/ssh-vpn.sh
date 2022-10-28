@@ -303,7 +303,7 @@ wget -O del-tr "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/del-tr.
 wget -O trial-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/trial-menu.sh"
 wget -O info-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/info-menu.sh"
 wget -O ceklim "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/ceklim.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cekusage.sh"
+wget -O cekusage "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cekusage.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
