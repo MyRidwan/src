@@ -161,13 +161,14 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ MENU LAYANAN ⇲                         \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e " [${GREEN}01${NC}]${RED} •${NC} SSH-WS Manager  $NC   [${GREEN}08${NC}]${RED} • ${NC}Info Dev Manager $NC"
-echo -e " [${GREEN}02${NC}]${RED} •${NC} Vmess Manager    $NC  [${GREEN}09${NC}]${RED} • ${NC}Speedtest Manager $NC"
-echo -e " [${GREEN}03${NC}]${RED} •${NC} Trojan Manager   $NC  [${GREEN}10${NC}]${RED} • ${NC}Ssws Manager $NC"
-echo -e " [${GREEN}04${NC}]${RED} •${NC} Trial Manager   $NC   [${GREEN}11${NC}]${RED} • ${NC}Change Banner $NC"
-echo -e " [${GREEN}05${NC}]${RED} •${NC} Add Domain    $NC     [${GREEN}12${NC}]${RED} • ${NC}Cek Bandwith User Xray $NC"
-echo -e " [${GREEN}06${NC}]${RED} •${NC} Running Service $NC   [${GREEN}13${NC}]${RED} • ${NC}Change Password VPS $NC"
-echo -e " [${GREEN}07${NC}]${RED} •${NC} Certificate SSL $NC   [${GREEN}14${NC}]${RED} • ${NC}RESTORE DATA $NC"
+echo -e " [${GREEN}01${NC}]${RED} •${NC} SSH-WS Manager  $NC   [${GREEN}09${NC}]${RED} • ${NC}Info Dev Manager $NC"
+echo -e " [${GREEN}02${NC}]${RED} •${NC} Vmess Manager    $NC  [${GREEN}10${NC}]${RED} • ${NC}Speedtest Manager $NC"
+echo -e " [${GREEN}03${NC}]${RED} •${NC} Trojan Manager   $NC  [${GREEN}11${NC}]${RED} • ${NC}Ssws Manager $NC"
+echo -e " [${GREEN}04${NC}]${RED} •${NC} Trial Manager   $NC   [${GREEN}12${NC}]${RED} • ${NC}Change Banner $NC"
+echo -e " [${GREEN}05${NC}]${RED} •${NC} Add Domain    $NC     [${GREEN}13${NC}]${RED} • ${NC}Cek Bandwith User Xray $NC"
+echo -e " [${GREEN}06${NC}]${RED} •${NC} Running Service $NC   [${GREEN}14${NC}]${RED} • ${NC}Change Password VPS $NC"
+echo -e " [${GREEN}07${NC}]${RED} •${NC} Certificate SSL $NC   [${GREEN}15${NC}]${RED} • ${NC}RESTORE DATA $NC"
+echo -e " [${GREEN}08${NC}]${RED} •${NC} Cek Trafik Xray $NC   [${GREEN}16${NC}]${RED} • ${NC}REBOOT VPS $NC"
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                     ⇱ XDRGVPN PROJECT ⇲                      \E[0m"
@@ -207,29 +208,37 @@ crtv2ray
 ;;
 8)
 clear
-about
+cekusage
 ;;
 9)
 clear
-speedtest
+about
 ;;
 10)
 clear
-add-ssws
+speedtest
 ;;
 11)
 clear
-banner
+add-ssws
 ;;
 12)
 clear
-info-menu
+banner
 ;;
 13)
 clear
-passwd
+info-menu
 ;;
 14)
+clear
+passwd
+;;
+15)
+clear
+reboot
+;;
+16)
 reboot
 exit
 ;;
