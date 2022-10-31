@@ -4,7 +4,7 @@
 MYIP=$(curl -sS ipv4.icanhazip.com)
 
 clear
-echo "Checking VPS"
+echo "Checking Izin IP VPS"
 sleep 2
 
 
