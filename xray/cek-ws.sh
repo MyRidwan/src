@@ -1,12 +1,6 @@
 #!/bin/bash
 #########################
 
-MYIP=$(curl -sS ipv4.icanhazip.com)
-
-clear
-echo "Checking Izin IP VPS"
-sleep 2
-
 clear
 echo -n > /tmp/other.txt
 data=( `cat /etc/xray/config.json | grep '^###' | cut -d ' ' -f 2 | sort | uniq`);
