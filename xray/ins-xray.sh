@@ -568,6 +568,7 @@ wget -q -O /usr/bin/del-user "https://raw.githubusercontent.com/myridwan/src/ipu
 wget -q -O /usr/bin/renew-ws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/renew-ws.sh" && chmod +x /usr/bin/renew-ws
 wget -q -O /usr/bin/crtv2ray "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/crt.sh" && chmod +x /usr/bin/crtv2ray
 wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/add-ssws.sh" && chmod +x /usr/bin/add-ssws
+wget -q -O /usr/bin/cek-ws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cekws.sh" && chmod +x /usr/bin/cek-ws
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "xray/Vmess"
