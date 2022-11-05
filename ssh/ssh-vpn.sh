@@ -295,7 +295,7 @@ wget -O ssh-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/s
 wget -O v2ray-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/v2ray-menu.sh"
 wget -O trojan-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/trojan-menu.sh"
 wget -O ssgrpc-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/ssgrpc-menu.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cek-ws.sh"
+wget -O cekws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cekws.sh"
 wget -O about "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/about.sh" 
 wget -O running "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/running.sh"
 wget -O banner "https://raw.githubusercontent.com/myridwan/src/ipuk/banner.sh"
@@ -320,7 +320,7 @@ chmod +x ssh-menu
 chmod +x v2ray-menu
 chmod +x trojan-menu
 chmod +x ssgrpc-menu
-chmod +x cek-ws
+chmod +x cekws
 chmod +x about
 chmod +x running
 chmod +x banner
