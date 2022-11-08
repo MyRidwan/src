@@ -1,6 +1,6 @@
 #!/bin/bash
-#########################
-
+#########################         
+                                              
 # COLOR VALIDATION
 RED='\033[0;31m'
 NC='\033[0m'
@@ -14,15 +14,15 @@ LIGHT='\033[0;37m'
 MYIP=$(curl -sS ipv4.icanhazip.com)
 
 clear
-echo "${GREEN}Check Perizinan VPS!!!${NC}"
+echo -e "${GREEN}Check Perizinan VPS!!!\033[0m${NC}"
 sleep 3
 
 clear
 echo -n > /tmp/other.txt
 data=( `cat /etc/xray/config.json | grep '^###' | cut -d ' ' -f 2 | sort | uniq`);
-echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}";
-echo "|----------=[ ${GREEN}XRAY USER LOGIN${NC} ]=---------|";
-echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}";for akun in "${data[@]}"
+echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}";
+echo -e "\E[44;1;39m|]---------=[ XRAY USER LOGIN ]=--------[|${NC}";
+echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}";for akun in "${data[@]}"
 do
 if [[ -z "$akun" ]]; then
 akun="tidakada"
@@ -51,14 +51,14 @@ jum2=$(cat /tmp/ipvmess.txt | nl)
 echo -e "${GREEN}User : $akun ${NC}";
 echo -e "${RED}Last Login: $login${NC}"
 echo "$jum2";
-echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 fi
 rm -rf /tmp/ipvmess.txt
 done
 done
 oth=$(cat /tmp/other.txt | sort | uniq | nl)
 echo "$oth";
-echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{NC}"
+echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 rm -rf /tmp/other.txt
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
