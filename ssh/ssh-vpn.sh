@@ -304,7 +304,7 @@ wget -O trial-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all
 wget -O info-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/info-menu.sh"
 wget -O ceklim "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/ceklim.sh"
 wget -O cekusage "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cekusage.sh"
-wget -O cekusage "https://raw.githubusercontent.com/myridwan/src/ipuk/cekxray.sh"
+wget -O cekxray "https://raw.githubusercontent.com/myridwan/src/ipuk/cekxray.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
