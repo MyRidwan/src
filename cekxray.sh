@@ -1,18 +1,28 @@
 #!/bin/bash
 #########################
 
+# COLOR VALIDATION
+RED='\033[0;31m'
+NC='\033[0m'
+GREEN='\033[0;32m'
+ORANGE='\033[0;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+LIGHT='\033[0;37m'
+
 MYIP=$(curl -sS ipv4.icanhazip.com)
 
 clear
-echo "Check Perizinan VPS!!!"
+echo "${GREEN}Check Perizinan VPS!!!${NC}"
 sleep 3
 
 clear
 echo -n > /tmp/other.txt
 data=( `cat /etc/xray/config.json | grep '^###' | cut -d ' ' -f 2 | sort | uniq`);
-echo "--------------------------------";
-echo "-----=[ XRAY USER LOGIN ]=------";
-echo "--------------------------------";for akun in "${data[@]}"
+echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}";
+echo "|----------=[ ${GREEN}XRAY USER LOGIN${NC} ]=---------|";
+echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}";for akun in "${data[@]}"
 do
 if [[ -z "$akun" ]]; then
 akun="tidakada"
@@ -41,14 +51,14 @@ jum2=$(cat /tmp/ipvmess.txt | nl)
 echo -e "${GREEN}User : $akun ${NC}";
 echo -e "${RED}Last Login: $login${NC}"
 echo "$jum2";
-echo "--------------------------------"
+echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 fi
 rm -rf /tmp/ipvmess.txt
 done
 done
 oth=$(cat /tmp/other.txt | sort | uniq | nl)
 echo "$oth";
-echo "--------------------------------"
+echo "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{NC}"
 rm -rf /tmp/other.txt
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
