@@ -167,7 +167,7 @@ echo -e " [${GREEN}03${NC}]${RED} •${NC} Trojan Manager   $NC  [${GREEN}11${NC
 echo -e " [${GREEN}04${NC}]${RED} •${NC} Trial Manager   $NC   [${GREEN}12${NC}]${RED} • ${NC}Change Banner $NC"
 echo -e " [${GREEN}05${NC}]${RED} •${NC} Add Domain    $NC     [${GREEN}13${NC}]${RED} • ${NC}Cek Bandwith User Xray $NC"
 echo -e " [${GREEN}06${NC}]${RED} •${NC} Running Service $NC   [${GREEN}14${NC}]${RED} • ${NC}Change Password VPS $NC"
-echo -e " [${GREEN}07${NC}]${RED} •${NC} Certificate SSL $NC   [${GREEN}15${NC}]${RED} • ${NC}RESTORE DATA $NC"
+echo -e " [${GREEN}07${NC}]${RED} •${NC} Certificate SSL $NC   [${GREEN}15${NC}]${RED} • ${NC}CEK LOGIN XRAY $NC"
 echo -e " [${GREEN}08${NC}]${RED} •${NC} Cek Trafik Xray $NC   [${GREEN}16${NC}]${RED} • ${NC}REBOOT VPS $NC"
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -236,7 +236,7 @@ passwd
 ;;
 15)
 clear
-reboot
+cekxray
 ;;
 16)
 reboot
