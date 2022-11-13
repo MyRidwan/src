@@ -240,12 +240,12 @@ wget https://raw.githubusercontent.com/myridwan/src/ipuk/xray/ins-xray.sh && chm
 #wget https://raw.githubusercontent.com/myridwan/src/ipuk/bckp/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 wget https://raw.githubusercontent.com/myridwan/src/ipuk/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install BOT XOLPANEL              $NC"
+echo -e "$green          Install BOT XDRG              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
 #install ohp
-wget https://raw.githubusercontent.com/myridwan/src/ipuk/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh
+#wget https://raw.githubusercontent.com/myridwan/src/ipuk/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
